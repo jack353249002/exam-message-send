@@ -1,8 +1,8 @@
 package internal
 
 import (
-	"github.com/SupenBysz/gf-admin-community/internal/boot"
-	"github.com/SupenBysz/gf-admin-community/utility/idgen"
+	"github.com/jack353249002/exam-message-send/internal/boot"
+	"github.com/jack353249002/exam-message-send/utility/idgen"
 
 	_ "github.com/gogf/gf/contrib/drivers/pgsql/v2"
 	_ "github.com/gogf/gf/contrib/nosql/redis/v2"

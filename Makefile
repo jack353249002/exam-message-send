@@ -1,5 +1,5 @@
 ROOT_DIR    = $(shell pwd)
-NAMESPACE   = "github.com/SupenBysz/gf-admin-community"
+NAMESPACE   = "github.com/jack353249002/exam-message-send"
 
 # Install/Update to the latest CLI tool.
 .PHONY: cli

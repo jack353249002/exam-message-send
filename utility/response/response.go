@@ -1,7 +1,7 @@
 package response
 
 import (
-	"github.com/SupenBysz/gf-admin-community/api_v1"
+	"github.com/jack353249002/exam-message-send/api_v1"
 	"reflect"
 	"strings"
 	"unsafe"

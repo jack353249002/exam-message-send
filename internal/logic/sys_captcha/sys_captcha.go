@@ -2,7 +2,7 @@ package sys_captcha
 
 import (
 	"context"
-	"github.com/SupenBysz/gf-admin-community/sys_service"
+	"github.com/jack353249002/exam-message-send/sys_service"
 	"github.com/gogf/gf/v2/util/gconv"
 	"github.com/yitter/idgenerator-go/idgen"
 

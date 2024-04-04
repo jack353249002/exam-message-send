@@ -3,9 +3,9 @@ package sys_controller
 import (
 	"context"
 	"fmt"
-	"github.com/SupenBysz/gf-admin-community/api_v1"
-	"github.com/SupenBysz/gf-admin-community/api_v1/sys_api"
-	"github.com/SupenBysz/gf-admin-community/sys_service"
+	"github.com/jack353249002/exam-message-send/api_v1"
+	"github.com/jack353249002/exam-message-send/api_v1/sys_api"
+	"github.com/jack353249002/exam-message-send/sys_service"
 	"github.com/kysion/sms-library/api/sms_api"
 	"github.com/kysion/sms-library/sms_controller"
 	"github.com/kysion/sms-library/sms_global"

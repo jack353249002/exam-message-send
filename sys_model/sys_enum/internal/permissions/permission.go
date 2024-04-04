@@ -1,7 +1,7 @@
 package sys_enum_permission
 
 import (
-	"github.com/SupenBysz/gf-admin-community/utility/permission"
+	"github.com/jack353249002/exam-message-send/utility/permission"
 	"github.com/kysion/base-library/utility/base_permission"
 )
 

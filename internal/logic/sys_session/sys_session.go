@@ -2,8 +2,8 @@ package sys_session
 
 import (
 	"context"
-	"github.com/SupenBysz/gf-admin-community/sys_model"
-	"github.com/SupenBysz/gf-admin-community/sys_service"
+	"github.com/jack353249002/exam-message-send/sys_model"
+	"github.com/jack353249002/exam-message-send/sys_service"
 	"github.com/gogf/gf/v2/frame/g"
 	"github.com/gogf/gf/v2/net/ghttp"
 )
@@ -18,7 +18,7 @@ func init() {
 
 func New() *sSysSession {
 	return &sSysSession{
-		contextKey: g.Cfg().MustGet(context.Background(), "service.sessionContextKey", "gf-admin-community").String(),
+		contextKey: g.Cfg().MustGet(context.Background(), "service.sessionContextKey", "exam-message-send").String(),
 	}
 }
 

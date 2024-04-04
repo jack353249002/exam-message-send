@@ -2,17 +2,17 @@ package boot
 
 import (
 	"context"
-	"github.com/SupenBysz/gf-admin-community/api_v1"
-	"github.com/SupenBysz/gf-admin-community/sys_consts"
-	"github.com/SupenBysz/gf-admin-community/sys_controller"
-	"github.com/SupenBysz/gf-admin-community/sys_model/sys_entity"
-	"github.com/SupenBysz/gf-admin-community/sys_service"
 	"github.com/gogf/gf/v2/frame/g"
 	"github.com/gogf/gf/v2/net/ghttp"
 	"github.com/gogf/gf/v2/os/gcmd"
 	"github.com/gogf/gf/v2/os/gfile"
 	"github.com/gogf/gf/v2/util/gconv"
 	"github.com/gogf/gf/v2/util/gmode"
+	"github.com/jack353249002/exam-message-send/api_v1"
+	"github.com/jack353249002/exam-message-send/sys_consts"
+	"github.com/jack353249002/exam-message-send/sys_controller"
+	"github.com/jack353249002/exam-message-send/sys_model/sys_entity"
+	"github.com/jack353249002/exam-message-send/sys_service"
 	"github.com/kysion/base-library/utility/en_crypto"
 	"github.com/kysion/oss-library/oss_consts"
 	"github.com/kysion/sms-library/sms_consts"
@@ -115,12 +115,13 @@ var (
 
 					// 权限路由绑定
 					group.Group("/", func(group *ghttp.RouterGroup) {
+						//消息设置
+						group.Group("/message_send", func(group *ghttp.RouterGroup) { group.Bind(sys_controller.SysMessageSend) })
 						// 注册中间件
 						group.Middleware(
 							sys_service.Middleware().Auth,
 							// sys_service.Middleware().CheckPermission,
 						)
-
 						// 文件上传
 						group.Group("/common/file", func(group *ghttp.RouterGroup) { group.Bind(sys_controller.SysFile) })
 						// 应用配置

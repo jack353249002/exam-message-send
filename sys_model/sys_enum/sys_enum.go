@@ -1,20 +1,20 @@
 package sys_enum
 
 import (
-	"github.com/SupenBysz/gf-admin-community/sys_model/sys_enum/internal/audit"
-	"github.com/SupenBysz/gf-admin-community/sys_model/sys_enum/internal/auth"
-	"github.com/SupenBysz/gf-admin-community/sys_model/sys_enum/internal/business"
-	"github.com/SupenBysz/gf-admin-community/sys_model/sys_enum/internal/casbin"
-	"github.com/SupenBysz/gf-admin-community/sys_model/sys_enum/internal/file"
-	sys_enum_invite "github.com/SupenBysz/gf-admin-community/sys_model/sys_enum/internal/invite"
-	"github.com/SupenBysz/gf-admin-community/sys_model/sys_enum/internal/license"
-	sys_enum_menu "github.com/SupenBysz/gf-admin-community/sys_model/sys_enum/internal/menu"
-	sys_enum_organization "github.com/SupenBysz/gf-admin-community/sys_model/sys_enum/internal/organization"
-	"github.com/SupenBysz/gf-admin-community/sys_model/sys_enum/internal/oss"
-	sys_enum_permissions "github.com/SupenBysz/gf-admin-community/sys_model/sys_enum/internal/permissions"
-	sys_enum_role "github.com/SupenBysz/gf-admin-community/sys_model/sys_enum/internal/role"
-	"github.com/SupenBysz/gf-admin-community/sys_model/sys_enum/internal/upload"
-	"github.com/SupenBysz/gf-admin-community/sys_model/sys_enum/internal/user"
+	"github.com/jack353249002/exam-message-send/sys_model/sys_enum/internal/audit"
+	"github.com/jack353249002/exam-message-send/sys_model/sys_enum/internal/auth"
+	"github.com/jack353249002/exam-message-send/sys_model/sys_enum/internal/business"
+	"github.com/jack353249002/exam-message-send/sys_model/sys_enum/internal/casbin"
+	"github.com/jack353249002/exam-message-send/sys_model/sys_enum/internal/file"
+	sys_enum_invite "github.com/jack353249002/exam-message-send/sys_model/sys_enum/internal/invite"
+	"github.com/jack353249002/exam-message-send/sys_model/sys_enum/internal/license"
+	sys_enum_menu "github.com/jack353249002/exam-message-send/sys_model/sys_enum/internal/menu"
+	sys_enum_organization "github.com/jack353249002/exam-message-send/sys_model/sys_enum/internal/organization"
+	"github.com/jack353249002/exam-message-send/sys_model/sys_enum/internal/oss"
+	sys_enum_permissions "github.com/jack353249002/exam-message-send/sys_model/sys_enum/internal/permissions"
+	sys_enum_role "github.com/jack353249002/exam-message-send/sys_model/sys_enum/internal/role"
+	"github.com/jack353249002/exam-message-send/sys_model/sys_enum/internal/upload"
+	"github.com/jack353249002/exam-message-send/sys_model/sys_enum/internal/user"
 )
 
 type (

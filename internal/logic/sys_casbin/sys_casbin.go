@@ -2,12 +2,12 @@ package sys_casbin
 
 import (
 	"context"
-	"github.com/SupenBysz/gf-admin-community/sys_consts"
-	"github.com/SupenBysz/gf-admin-community/sys_model"
-	"github.com/SupenBysz/gf-admin-community/sys_model/sys_dao"
-	"github.com/SupenBysz/gf-admin-community/sys_model/sys_enum"
-	"github.com/SupenBysz/gf-admin-community/sys_model/sys_hook"
-	"github.com/SupenBysz/gf-admin-community/sys_service"
+	"github.com/jack353249002/exam-message-send/sys_consts"
+	"github.com/jack353249002/exam-message-send/sys_model"
+	"github.com/jack353249002/exam-message-send/sys_model/sys_dao"
+	"github.com/jack353249002/exam-message-send/sys_model/sys_enum"
+	"github.com/jack353249002/exam-message-send/sys_model/sys_hook"
+	"github.com/jack353249002/exam-message-send/sys_service"
 	"github.com/casbin/casbin/v2"
 	casbinModel "github.com/casbin/casbin/v2/model"
 	"github.com/gogf/gf/v2/database/gdb"

@@ -2,11 +2,11 @@ package sys_menu
 
 import (
 	"context"
-	"github.com/SupenBysz/gf-admin-community/sys_model"
-	"github.com/SupenBysz/gf-admin-community/sys_model/sys_dao"
-	"github.com/SupenBysz/gf-admin-community/sys_model/sys_do"
-	"github.com/SupenBysz/gf-admin-community/sys_model/sys_entity"
-	"github.com/SupenBysz/gf-admin-community/sys_service"
+	"github.com/jack353249002/exam-message-send/sys_model"
+	"github.com/jack353249002/exam-message-send/sys_model/sys_dao"
+	"github.com/jack353249002/exam-message-send/sys_model/sys_do"
+	"github.com/jack353249002/exam-message-send/sys_model/sys_entity"
+	"github.com/jack353249002/exam-message-send/sys_service"
 	"github.com/gogf/gf/v2/database/gdb"
 	"github.com/gogf/gf/v2/errors/gcode"
 	"github.com/gogf/gf/v2/errors/gerror"

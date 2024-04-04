@@ -102,7 +102,7 @@
 ### 编译
 1、克隆项目
 ```Shell
-git clone https://github.com/SupenBysz/gf-admin-community.git
+git clone https://github.com/jack353249002/exam-message-send.git
 ```
 2、初始化项目
 ```Shell

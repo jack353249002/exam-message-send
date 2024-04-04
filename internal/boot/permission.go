@@ -1,8 +1,8 @@
 package boot
 
 import (
-	"github.com/SupenBysz/gf-admin-community/sys_consts"
-	"github.com/SupenBysz/gf-admin-community/sys_model/sys_enum"
+	"github.com/jack353249002/exam-message-send/sys_consts"
+	"github.com/jack353249002/exam-message-send/sys_model/sys_enum"
 	"github.com/kysion/base-library/utility/base_permission"
 )
 

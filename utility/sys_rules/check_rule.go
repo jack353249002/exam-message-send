@@ -2,10 +2,10 @@ package sys_rules
 
 import (
 	"context"
-	"github.com/SupenBysz/gf-admin-community/sys_consts"
-	"github.com/SupenBysz/gf-admin-community/sys_model"
-	"github.com/SupenBysz/gf-admin-community/sys_service"
-	"github.com/SupenBysz/gf-admin-community/utility/invite_id"
+	"github.com/jack353249002/exam-message-send/sys_consts"
+	"github.com/jack353249002/exam-message-send/sys_model"
+	"github.com/jack353249002/exam-message-send/sys_service"
+	"github.com/jack353249002/exam-message-send/utility/invite_id"
 	"github.com/gogf/gf/v2/errors/gcode"
 	"github.com/gogf/gf/v2/errors/gerror"
 	"github.com/gogf/gf/v2/frame/g"

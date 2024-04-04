@@ -3,7 +3,7 @@ package sys_rules
 import (
 	"context"
 	"fmt"
-	"github.com/SupenBysz/gf-admin-community/sys_model"
+	"github.com/jack353249002/exam-message-send/sys_model"
 	"github.com/gogf/gf/v2/container/gmap"
 	"github.com/gogf/gf/v2/frame/g"
 	"github.com/gogf/gf/v2/net/ghttp"

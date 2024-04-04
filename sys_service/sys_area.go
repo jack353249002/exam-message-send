@@ -8,8 +8,8 @@ package sys_service
 import (
 	"context"
 
-	"github.com/SupenBysz/gf-admin-community/sys_model"
-	"github.com/SupenBysz/gf-admin-community/sys_model/sys_entity"
+	"github.com/jack353249002/exam-message-send/sys_model"
+	"github.com/jack353249002/exam-message-send/sys_model/sys_entity"
 )
 
 type (

@@ -15,7 +15,7 @@ service:
   # 用户表ID生成器，分布式终端标识，取值范围 1 ~ 63，解决分布式多服务横向扩展时保证生成的ID不重复
   idGeneratorWorkerId: 1
   # 接口前缀
-  apiPrefix: "/kysion/gf-admin-community"
+  apiPrefix: "/kysion/exam-message-send"
   # Token Sign Key
   tokenSignKey: "KysionGfAdminProTokenSignKey"
   # 用户默认类型：0匿名，1用户，2微商，4商户、8广告主、16服务商、32运营商；独立调用创建用户、查询用户信息等相关接口时强制过滤类型

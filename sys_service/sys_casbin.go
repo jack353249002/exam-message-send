@@ -6,9 +6,9 @@
 package sys_service
 
 import (
-	"github.com/SupenBysz/gf-admin-community/sys_model/sys_enum"
-	"github.com/SupenBysz/gf-admin-community/sys_model/sys_hook"
 	"github.com/casbin/casbin/v2"
+	"github.com/jack353249002/exam-message-send/sys_model/sys_enum"
+	"github.com/jack353249002/exam-message-send/sys_model/sys_hook"
 )
 
 type (

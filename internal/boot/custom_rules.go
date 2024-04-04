@@ -1,7 +1,7 @@
 package boot
 
 import (
-	"github.com/SupenBysz/gf-admin-community/utility/sys_rules"
+	"github.com/jack353249002/exam-message-send/utility/sys_rules"
 	"github.com/kysion/base-library/utility/validator"
 )
 

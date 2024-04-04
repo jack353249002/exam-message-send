@@ -2,7 +2,7 @@ package sys_session
 
 import (
 	"context"
-	"github.com/SupenBysz/gf-admin-community/sys_service"
+	"github.com/jack353249002/exam-message-send/sys_service"
 )
 
 type sSessionError struct {

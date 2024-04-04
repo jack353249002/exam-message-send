@@ -16,7 +16,7 @@ package sys_casbin
 
 import (
 	"fmt"
-	"github.com/SupenBysz/gf-admin-community/sys_model/sys_dao"
+	"github.com/jack353249002/exam-message-send/sys_model/sys_dao"
 	"runtime"
 
 	"github.com/casbin/casbin/v2/model"

@@ -2,7 +2,7 @@ package boot
 
 import (
 	"context"
-	"github.com/SupenBysz/gf-admin-community/sys_consts"
+	"github.com/jack353249002/exam-message-send/sys_consts"
 	"github.com/gogf/gf/v2/frame/g"
 	"github.com/gogf/gf/v2/os/glog"
 )

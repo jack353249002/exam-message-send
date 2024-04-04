@@ -1,7 +1,7 @@
 package sys_model
 
 import (
-	"github.com/SupenBysz/gf-admin-community/sys_model/sys_entity"
+	"github.com/jack353249002/exam-message-send/sys_model/sys_entity"
 	"github.com/gogf/gf/v2/net/ghttp"
 	"github.com/gogf/gf/v2/os/gtime"
 )

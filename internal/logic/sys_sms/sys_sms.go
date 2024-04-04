@@ -3,8 +3,8 @@ package sys_sms
 import (
 	"context"
 	"fmt"
-	"github.com/SupenBysz/gf-admin-community/sys_model/sys_dao"
-	"github.com/SupenBysz/gf-admin-community/sys_service"
+	"github.com/jack353249002/exam-message-send/sys_model/sys_dao"
+	"github.com/jack353249002/exam-message-send/sys_service"
 	"github.com/gogf/gf/v2/frame/g"
 	"github.com/kysion/base-library/base_model/base_enum"
 )

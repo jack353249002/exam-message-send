@@ -2,12 +2,12 @@ package sys_controller
 
 import (
 	"context"
-	"github.com/SupenBysz/gf-admin-community/api_v1"
-	"github.com/SupenBysz/gf-admin-community/api_v1/sys_api"
-	"github.com/SupenBysz/gf-admin-community/sys_model"
-	"github.com/SupenBysz/gf-admin-community/sys_model/sys_enum"
-	"github.com/SupenBysz/gf-admin-community/sys_service"
 	"github.com/gogf/gf/v2/util/gconv"
+	"github.com/jack353249002/exam-message-send/api_v1"
+	"github.com/jack353249002/exam-message-send/api_v1/sys_api"
+	"github.com/jack353249002/exam-message-send/sys_model"
+	"github.com/jack353249002/exam-message-send/sys_model/sys_enum"
+	"github.com/jack353249002/exam-message-send/sys_service"
 	"github.com/kysion/base-library/base_model"
 )
 

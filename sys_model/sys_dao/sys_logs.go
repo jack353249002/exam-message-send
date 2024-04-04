@@ -5,7 +5,7 @@
 package sys_dao
 
 import (
-	"github.com/SupenBysz/gf-admin-community/sys_model/sys_dao/internal"
+	"github.com/jack353249002/exam-message-send/sys_model/sys_dao/internal"
 	"github.com/kysion/base-library/utility/daoctl/dao_interface"
 )
 
