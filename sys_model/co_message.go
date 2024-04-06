@@ -5,6 +5,7 @@
 package sys_model
 
 import (
+	"github.com/kysion/base-library/base_model"
 )
 
 // CoMessage is the golang structure of table co_message for DAO operations like Where/Data.
@@ -12,3 +13,5 @@ type CoMessage struct {
 	Title     string `json:"title" v:"required#请输入标题"  dc:"标题"`
 	Body      string `json:"body" v:"required#请输入内容"  dc:"内容"`
 }
+
+type CoMessageListRes base_model.CollectRes[*CoMessage]
